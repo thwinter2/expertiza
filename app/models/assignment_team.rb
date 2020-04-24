@@ -18,7 +18,7 @@ class AssignmentTeam < Team
     "Assignment"
   end
 
-  def self.parent_model(id)
+  def self.parent_model(id) 
     Assignment.find(id)
   end
 
